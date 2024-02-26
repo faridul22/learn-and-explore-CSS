@@ -6,3 +6,24 @@
     color: blueviolet;
     text-align: center;
 }
+
+.blog_page_title {
+    text-align: center;
+}
+
+.blog {
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.blog_title {
+    width: 90%;
+    margin: 0 auto;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+}
