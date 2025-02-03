@@ -1,44 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mixed classSelector</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        #main_title {
-            color: brown;
-            text-align: center;
-        }
+      #main_title {
+        color: brown;
+        text-align: center;
+      }
 
-        p {
-            background-color: rgba(240, 206, 195, 0.796);
-        }
+      p {
+        background-color: green;
+        color: white;
+      }
 
-        .text_yellow {
-            color: red;
-            font: bold;
-            font-size: large;
-        }
+      .text_yellow {
+        color: yellow;
+        font: bold;
+        font-size: large;
+      }
+      .text_bold {
+        font-weight: bold;
+      }
+      /* Form style */
+      form {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px;
+        padding: 20px;
+        margin: 20px auto;
+      }
+      input {
+        padding: 10px 2px;
+        margin: 8px 0;
+        border-radius: 4px;
+        width: 100%;
+        font-size: 1em;
+      }
+      input[type="password"] {
+        color: red;
+      }
+      input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 100%;
+      }
     </style>
-</head>
+  </head>
 
-<body>
+  <body>
     <h1 id="main_title">Explore mixed selectors</h1>
     <p class="text_yellow">My -1 line of CSS</p>
     <p>My -2 line of CSS</p>
     <p>My -3 line of CSS</p>
-    <p>My -4 line of CSS</p>
+    <p class="text_bold">My -4 line of CSS</p>
     <p>My -5 line of CSS</p>
     <p>My -6 line of CSS</p>
     <p>My -7 line of CSS</p>
     <p class="text_yellow">My -8 line of CSS</p>
-</body>
-
+    <div>
+      <form>
+        <h3 class="from_title">Login Now</h3>
+        <input type="email" name="email" placeholder="Your email" id="" />
+        <br />
+        <input
+          type="password"
+          name="password"
+          placeholder="Your Password"
+          id=""
+        />
+        <br />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </body>
 </html>
