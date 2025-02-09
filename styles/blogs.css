@@ -1,0 +1,32 @@
+.box_model {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: lightseagreen;
+  border: 10px solid brown;
+  box-shadow: 5px 5px 5px 4px rgb(162, 140, 140);
+}
+.page_title {
+  color: brown;
+  text-align: center;
+}
+.blog {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: lightseagreen;
+  border: 10px solid brown;
+  box-shadow: 5px 5px 5px 4px rgb(162, 140, 140);
+}
+.blog_title {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: brown;
+  padding: 10px;
+  border-radius: 5px;
+}
